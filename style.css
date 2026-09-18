@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.calculator{
+    width: 300px;
+}
+
+#display{
+    width: 100%;
+    padding: 15px;
+    font-size: 10px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
